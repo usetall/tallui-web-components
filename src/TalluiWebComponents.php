@@ -12,6 +12,7 @@ class TalluiWebComponents
     public function __construct(float $kilograms)
     {
         $this->kilograms = $kilograms;
+
     }
 
     public function toLbs(): float
