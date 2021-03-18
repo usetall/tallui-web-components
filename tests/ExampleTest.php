@@ -1,6 +1,6 @@
 <?php
 
-namespace Usetall\TalluiWebComponents\Tests;
+namespace Tallui\Tests;
 
 class ExampleTest extends TestCase
 {

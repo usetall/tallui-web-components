@@ -2,7 +2,6 @@
     "name": "usetall/tallui-web-components",
     "description": "Renderless Web Components for the Tall-Stack.",
     "keywords": [
-        "usetall",
         "tallui-web-components"
     ],
     "homepage": "https://github.com/usetall/tallui-web-components",
@@ -27,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Usetall\\TalluiWebComponents\\": "src",
-            "Usetall\\TalluiWebComponents\\Database\\Factories\\": "database/factories"
+            "Tallui\\": "src",
+            "Tallui\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Usetall\\TalluiWebComponents\\Tests\\": "tests"
+            "Tallui\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Usetall\\TalluiWebComponents\\TalluiWebComponentsServiceProvider"
+                "Tallui\\TalluiWebComponentsServiceProvider"
             ],
             "aliases": {
-                "TalluiWebComponents": "Usetall\\TalluiWebComponents\\TalluiWebComponentsFacade"
+                "TalluiWebComponents": "Tallui\\TalluiWebComponentsFacade"
             }
         }
     },

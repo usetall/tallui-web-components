@@ -1,6 +1,6 @@
 <?php
 
-namespace Usetall\TalluiWebComponents\Commands;
+namespace Tallui\Commands;
 
 use Illuminate\Console\Command;
 
