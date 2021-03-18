@@ -22,13 +22,13 @@ composer require usetall/tallui-web-components
 ~~You can publish and run the migrations with:~~
 
 ```bash
-php artisan vendor:publish --provider="TallUI\TalluiWebComponentsServiceProvider" --tag="tallui-web-components-migrations"
+php artisan vendor:publish --provider="TallUI\WebComponents\TalluiWebComponentsServiceProvider" --tag="tallui-web-components-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="TallUI\TalluiWebComponentsServiceProvider" --tag="tallui-web-components-config"
+php artisan vendor:publish --provider="TallUI\WebComponents\TalluiWebComponentsServiceProvider" --tag="tallui-web-components-config"
 ```
 
 This is the contents of the published config file:
@@ -41,7 +41,7 @@ return [
 ## Usage
 
 ```php
-$tallui_web_components = new Tallui\TalluiWebComponents();
+$tallui_web_components = new Tallui\WebComponents\TalluiWebComponents();
 echo $tallui_web_components->echoPhrase('Hello, I am TallUI!');
 ```
 
@@ -51,13 +51,19 @@ echo $tallui_web_components->echoPhrase('Hello, I am TallUI!');
 composer test
 ```
 
+or
+
+```bash
+./vendor/bin/phpunit
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/usetall/tallui-docs/blob/main/.github/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
