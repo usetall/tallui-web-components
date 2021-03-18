@@ -1,6 +1,6 @@
 <?php
 
-namespace Tallui;
+namespace  Tallui\WebComponents;
 
 class TalluiWebComponents
 {

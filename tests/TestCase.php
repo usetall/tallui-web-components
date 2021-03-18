@@ -1,10 +1,10 @@
 <?php
 
-namespace Tallui\Tests;
+namespace Tallui\WebComponents\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Tallui\TalluiWebComponentsServiceProvider;
+use Tallui\WebComponents\TalluiWebComponentsServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Tallui\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Tallui\\WebComponents\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

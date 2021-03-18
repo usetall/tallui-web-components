@@ -1,11 +1,11 @@
 <?php
 
-namespace Tallui;
+namespace  Tallui\WebComponents;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Tallui\TalluiWebComponents
+ * @see \Tallui\WebComponents\TalluiWebComponents
  */
 class TalluiWebComponentsFacade extends Facade
 {

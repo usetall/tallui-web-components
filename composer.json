@@ -32,13 +32,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Tallui\\": "src",
-            "Tallui\\Database\\Factories\\": "database/factories"
+            "Tallui\\WebComponents\\": "src",
+            "Tallui\\WebComponents\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tallui\\Tests\\": "tests"
+            "Tallui\\WebComponents\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -52,10 +52,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tallui\\TalluiWebComponentsServiceProvider"
+                "Tallui\\WebComponents\\TalluiWebComponentsServiceProvider"
             ],
             "aliases": {
-                "TalluiWebComponents": "Tallui\\TalluiWebComponentsFacade"
+                "TalluiWebComponents": "Tallui\\WebComponents\\TalluiWebComponentsFacade"
             }
         }
     },

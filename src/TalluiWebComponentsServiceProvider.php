@@ -1,10 +1,10 @@
 <?php
 
-namespace Tallui;
+namespace  Tallui\WebComponents;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Tallui\Commands\TalluiWebComponentsCommand;
+use Tallui\WebComponents\Commands\TalluiWebComponentsCommand;
 
 class TalluiWebComponentsServiceProvider extends PackageServiceProvider
 {
