@@ -12,6 +12,6 @@ class WebComponentsTest extends TestCase
     {
         $lbs = TalluiWebComponents::fromKilograms(100)->toLbs();
 
-        $this->assertEquals(220.4623 ,$lbs);
+        $this->assertEquals(220.4623, $lbs);
     }
 }

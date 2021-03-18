@@ -4,7 +4,6 @@ namespace  Tallui\WebComponents;
 
 class TalluiWebComponents
 {
-
     public static function fromKilograms(float $kilograms): self
     {
         return new static($kilograms);
