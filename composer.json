@@ -2,14 +2,20 @@
     "name": "usetall/tallui-web-components",
     "description": "Renderless Web Components for the Tall-Stack.",
     "keywords": [
-        "tallui-web-components"
+        "laravel",
+        "tallui",
+        "blade",
+        "laravel-package",
+        "tailwindcss",
+        "alpinejs",
+        "tall-stack"
     ],
     "homepage": "https://github.com/usetall/tallui-web-components",
     "license": "MIT",
     "authors": [
         {
             "name": "Alf Drollinger",
-            "email": "alf@drollinger.info",
+            "email": "alf@tallui.io",
             "role": "Developer"
         }
     ],
