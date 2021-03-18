@@ -4,7 +4,6 @@ namespace  Tallui\WebComponents;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Tallui\WebComponents\Commands\TalluiWebComponentsCommand;
 
 class TalluiWebComponentsServiceProvider extends PackageServiceProvider
 {
@@ -17,9 +16,6 @@ class TalluiWebComponentsServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('tallui-web-components')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_tallui_web_components_table')
-            ->hasCommand(TalluiWebComponentsCommand::class);
+            ->hasViews();
     }
 }
