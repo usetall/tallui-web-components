@@ -1,0 +1,19 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateTalluiWebComponentsTable extends Migration
+{
+    public function up()
+    {
+        Schema::create('tallui-web-components_table', function (Blueprint $table) {
+            $table->id();
+
+            // add fields
+
+            $table->timestamps();
+        });
+    }
+}
