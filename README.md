@@ -41,10 +41,6 @@ return [
 ## Usage
 
 ```php
-$skeleton = new Spatie\Skeleton();
-echo $skeleton->echoPhrase('Hello, Spatie!');
-
-
 $tallui_web_components = new Tallui\TalluiWebComponents();
 echo $tallui_web_components->echoPhrase('Hello, I am TallUI!');
 ```
